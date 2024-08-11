@@ -695,7 +695,6 @@ span {
         margin: 0 5rem;
     }
 }
-
 @media(max-width:991px) {
     header {
         padding: 2rem 3%;
@@ -705,7 +704,7 @@ span {
         padding: 10rem 3% 2rem;
     }
 
-    .timeline-item::before {
+    .timeline-items::before {
         left: 7px;
     }
 
