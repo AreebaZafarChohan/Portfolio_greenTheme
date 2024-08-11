@@ -684,7 +684,7 @@ span {
     color: white;
 }
 
-/*@media(max-width:1285px) {
+@media(max-width:1285px) {
     html {
         font-size: 55%;
     }
@@ -800,71 +800,4 @@ span {
     .services-container {
         grid-template-columns: repeat(1, 1fr);
     }
-} */
-
-/* Mobile and Tablet Adjustments */
-@media(max-width: 1285px) {
-    html {
-        font-size: 55%;
-    }
-
-    .services-container {
-        padding-bottom: 7rem;
-        grid-template-columns: repeat(2, 1fr);
-        margin: 0 5rem;
-    }
-
-    .service-info p {
-        font-size: 1.2rem; /* Slightly larger text for better readability */
-        max-height: 100px;
-        line-height: 1.7;
-    }
-
-    .services h2 {
-        font-size: 4rem; /* Adjust heading size */
-    }
-}
-
-@media(max-width: 991px) {
-    section {
-        padding: 8rem 3% 2rem;
-    }
-
-    .services-container {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 0 2rem;
-    }
-
-    .service-box {
-        height: auto; /* Allow boxes to grow with content */
-        padding: 3rem 2rem;
-    }
-
-    .service-info {
-        padding: 3rem 2rem;
-    }
-
-    .service-info h4 {
-        font-size: 2.5rem; /* Adjust service title size */
-    }
-
-    .service-info p {
-        font-size: 1.4rem; /* Make text slightly larger */
-        margin-top: 1rem;
-        line-height: 1.6;
-    }
-}
-
-@media(max-width: 480px) {
-    .service-box {
-        padding: 2rem 1rem;
-    }
-
-    .service-info h4 {
-        font-size: 2.2rem; /* Further adjust title size for small screens */
-    }
-
-    .service-info p {
-        font-size: 1.3rem; /* Ensure text is readable */
-    }
-}
+} 
